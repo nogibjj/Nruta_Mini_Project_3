@@ -32,14 +32,6 @@
 - Generate summary statistics (mean, median, standard deviation)
 - Create at least one data visualization
 
-### 📂 Contents of this repository
-- .devcontainer
-- README.md
-- Makefile
-- .github/workflows
-- requirements.txt
-- sustainable_fashion.md
-
 ### 📊 Dataset Description
 The dataset used for this project is Sustainable Fashion: Eco-Friendly Trends from Kaggle. It provides information on sustainable fashion trends with various metrics related to the industry. For more details and to download the dataset, visit this [link](https://www.kaggle.com/datasets/waqi786/sustainable-fashion-eco-friendly-trends).
 
@@ -64,8 +56,8 @@ The dataset has the following features:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/nogibjj/Nruta_Mini_Project_2.git
-cd Nruta_Mini_Project_2
+git clone https://github.com/nogibjj/Nruta_Mini_Project_3.git
+cd Nruta_Mini_Project_3
 ```
 
 2. Install the required dependencies:
