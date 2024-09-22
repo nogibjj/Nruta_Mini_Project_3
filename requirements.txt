@@ -1,0 +1,16 @@
+# devops
+black==22.3.0
+pytest==7.4.0 
+pytest-cov==4.0.0
+pylint==2.15.3
+
+# ruff
+ruff==0.0.284
+
+# packages for analysis
+pandas==1.5.3
+numpy==1.24.2
+matplotlib==3.7.1
+tabulate
+polars
+pyarrow
