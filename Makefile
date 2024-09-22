@@ -12,7 +12,7 @@ container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
 
 test:
-	python -m pytest -cov=main --cov=mylib test.py
+	python -m pytest -cov=main --cov=mylib test_*.py
 
 generate_and_push:
 	python sustainable_fashion.py
