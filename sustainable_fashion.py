@@ -47,7 +47,7 @@ def generate_statistics(df, analysis_col):
 def generate_plots(
     df, x_col, y_col, plot_title, xlabel, ylabel, pie_col, pie_title, jupyter_render
 ):
-    # formatting the data such that it is in the right format to be consumed by the bar_plot function
+    # grouping the data
     grouped_data = df.group_by(x_col).agg(pl.len().alias(y_col))
 
     # calling the function to create a bar plot
