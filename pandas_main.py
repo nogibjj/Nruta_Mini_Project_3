@@ -11,7 +11,6 @@ from mylib.pandas_make_functions import (
     calculate_mean,
     calculate_median,
     calculate_std_dev,
-    calculate_summary,
     bar_plot,
     pie_chart,
 )
@@ -33,7 +32,6 @@ def generate_statistics(df, analysis_col):
     mean = calculate_mean(df, analysis_col)
     median = calculate_median(df, analysis_col)
     std_dev = calculate_std_dev(df, analysis_col)
-    summary = calculate_summary(df)
 
     # Creating a DataFrame for the markdown table
     stats_dict = {

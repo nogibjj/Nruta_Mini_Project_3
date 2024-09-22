@@ -34,10 +34,6 @@ def calculate_std_dev(df, col):
     return df[col].std()
 
 
-def calculate_summary(df):
-    return df.describe()
-
-
 # Plotting functions
 # creating a bar chart
 def bar_plot(
