@@ -1,3 +1,8 @@
+"""
+Main python script which will be running on Pandas
+"""
+
+# importing libraries
 import pandas as pd
 import time
 

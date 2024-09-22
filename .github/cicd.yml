@@ -1,4 +1,4 @@
-name: Format
+name: CI-CD
 
 on:
   push:
@@ -24,5 +24,6 @@ jobs:
       
       - name: test
         run: make test
+        
       - name: generate_and_push
         run: make generate_and_push
