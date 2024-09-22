@@ -1,6 +1,7 @@
 # IDS 706 Week 3 Mini Project - Polars Descriptive Statistics Script
 
 ### 📂 Project Structure
+```bash
 .
 ├── .devcontainer
 │   ├── Dockerfile
@@ -12,9 +13,8 @@
 ├── README.md
 ├── bar_plot.png
 ├── mylib
-│   ├── __pycache__
-│   │   └── make_functions.cpython-312.pyc
-│   └── make_functions.py
+│   ├── make_functions.py
+│   └── pandas_make_functions.py
 ├── pandas_main.py
 ├── pie_chart.png
 ├── requirements.txt
@@ -22,6 +22,7 @@
 ├── sustainable_fashion.py
 ├── sustainable_fashion_trends_2024.csv
 └── test_main.py
+```
 
 ### 🏗️ Requirements
 - Python script using Polars for descriptive statistics
@@ -117,7 +118,8 @@ The statistics and the visualizations for the Sustainability brands data can als
 [Click here to view details](sustainable_fashion.md)
 
 ### Extra Credit (Profile benchmark for Pandas vs Polars)
-[!Time comparison](Time%20comparison%20ss.png)
+![Time comparison](Time%20comparison%20ss.png)
+
 While Polars is generally known for its speed advantages over Pandas, our execution results suggest otherwise in this specific case. Upon further inspection, it appears that some functions are more optimized in Pandas than in Polars.
 
 For instance, rendering visualizations using Matplotlib is straightforward with a Pandas DataFrame. However, with Polars, we need to convert the DataFrame to a NumPy array before passing it to the visualization function. This additional step may contribute to longer execution times when working with Polars in this context.
