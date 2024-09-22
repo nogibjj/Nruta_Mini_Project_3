@@ -1,3 +1,5 @@
+[![CI-CD](https://github.com/nogibjj/Nruta_Mini_Project_3/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nruta_Mini_Project_3/actions/workflows/cicd.yml)
+
 # IDS 706 Week 3 Mini Project - Polars Descriptive Statistics Script
 
 ### 📂 Project Structure
