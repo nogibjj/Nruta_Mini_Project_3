@@ -1,5 +1,7 @@
 """
-This file is for the extra credit component wherein we compare the time taken to run the code with Pandas and compare it with Polars
+Purpose of the file:
+Library file for the Pandas script
+Compare the time taken to run the code with Pandas and compare it with Polars
 """
 
 # importing libraries
